@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {list-style: none;}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+.title-r{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-right: 10px;
+}
+
+.title-r li {
+    float: left;
+    padding: 10px;
+}
+
+.title {
+    font-size: 100px;
+}
+
+header > nav {
+    background: #444;
+    height: 45px;
+    text-align: center;
+}
+
+.title-bar > li {
+    display: inline-block;
+    color: white;
+    padding-right: 30px;
+    line-height: 45px;
+}
+
+
+
+.main div{
+    margin: 0 auto;
+    float: none;
+}
+
+.main .main-img {
+    display: block;
+   width: 1200px;
+}
+
+.main div.main-text {
+    position: absolute;
+    top:50px;
+    right: 20px;
+
+}
+.main h2 {
+    font-size: 36px;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.main p {
+    font-size:18px;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.main .col-xs-12 {
+    text-align: center;
+    margin: 0 auto;
+    width: 1200px;
+    height: 750px;
+    position: relative;
+}
+.content > ul > li > img {
+    width: 220px;
+}
+
+.hover-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.content ul li .hover-content a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 700;
+    padding: 30px;
+
+}
+
+.hover-content:hover {
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    opacity: 1;
+}
+
+.content li {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    position: relative;
+}
+
+.content ul li h3 {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+.content ul li h2 {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.r-aside {
+    position: fixed;
+    top: 500px;
+    right: 0;
+    width: 100px;
+
+}
+
+.quick li {
+    text-align: center;
+    background-color: #282828;
+    font-size: 15px;
+}
+
+.quick li a {
+    display: block;
+    padding: 15px 0;
+    border: 1px solid #4d4d4d;
+    color: #fff;
+    font-size: 12px;
+}
+
+.quick li a h3 {
+    font-size: 15px;
+}
+
+.content {
+    width: 1200px;
+    display: block;
+    text-align: center;
+}
+
+.content {
+    margin: 0 auto;
+}
+.crearfix {
+    display: block;
+}
+
+header nav ul li a {
+    display: block;
+    color: #fff;
+    height: 40px;
+    line-height: 45px;
+    padding: 0 20px;
+    margin: 0 10px;
+    border-bottom: 1px solid #444;
+    transition: all 0.5s linear 0s;
+}

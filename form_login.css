@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.title {
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    margin: 70px auto;
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;;
+}
+
+.login-form {
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 70px 50px;
+    box-shadow: 0px 8px 16px rgb(0 0 0 / 15%);
+    margin-bottom: 174px;
+}       
+
+.login-form img {
+    width: 100%;
+    height: auto;
+}
+
+.form-control  {
+    margin-bottom: 30px;
+    border: none;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
